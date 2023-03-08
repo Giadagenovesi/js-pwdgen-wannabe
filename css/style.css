@@ -1,0 +1,39 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: black;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center
+}
+.box {
+    width: 1200px;
+    height: 1000px;
+    background-image: url(../img/pc.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.my-pw {
+    width: 30%;
+    margin: 0 auto;
+    border: 1px solid  #00a000;
+    color: #00a000;
+    font-weight: 100;
+    position: absolute;
+    top: 200px;
+    left: 420px;
+}
